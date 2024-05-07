@@ -1,0 +1,27 @@
+[assist09]
+train = "assist09/train.txt"
+test = "assist09/test.txt"
+n_questions = 123
+n_pid = 17751
+inputs = ["pid", "q", "s"]
+
+[assist17]
+train = "assist17/train.txt"
+test = "assist17/test.txt"
+n_questions = 102
+n_pid = 3162
+inputs = ["q", "s", "pid", "it", "at"]
+
+[statics]
+train = "statics/train.txt"
+test = "statics/test.txt"
+n_questions = 1223
+n_pid = 0
+inputs = ["q", "s"]
+
+[algebra05]
+train = "algebra05/train.txt"
+test = "algebra05/test.txt"
+n_questions = 138
+n_pid = 1084
+inputs = ["pid", "q", "s"]
